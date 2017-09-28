@@ -1,9 +1,4 @@
 <html>
-</head>
-    
-    <link rel="stylesheet" href="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/common-de9877d2f0.css">
-    <link rel="stylesheet" href="undefined">
-</head>
 
 <body>
     <h2>NodeJS - Canvas LTI starter toolkit</h2>
