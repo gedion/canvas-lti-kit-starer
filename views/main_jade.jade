@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    title NodeJS - Canvas LTI starter toolkit
+    link(rel='stylesheet', href="#{cssCommon}")
+    link(rel='stylesheet', href="#{cssUmnTheme}")
+  body
+    div.content-box.pad-box-mini.border.border-trbl
+     h3.content-box.pad-box-mini.border.border-trbl NodeJs Sources
+     div
+      a(href="#{https://nodejs.org/}") NodeJs
+     div
+      a(href="https://expressjs.com/") Express: Web framework for NodeJS
+     div
+      a(href="http://jade-lang.com/") Jade: Template Engine
+     div
+      a(href="http://passportjs.org/") PassportJs: Authentication
+     div
+      a(href="https://github.com/civitaslearning/passport-lti") Passport LTI Strategry
+
+    div.content-box.pad-box-mini.border.border-trbl
+      h3.content-box.pad-box-mini.border.border-trbl Canvas Sources: For creating html pages the Canvas way
+      div
+       a(href="#{cssCommon}") Canvas's common CSS
+      div
+       a(href="https://canvas.instructure.com/styleguide") Canvas Style guide documentation
+      div
+       a(href="https://canvas.instructure.com/doc/api/file.tools_variable_substitutions.html") Variable substituion
+
+    div.content-box.pad-box-mini.border.border-trbl
+     h3.content-box.pad-box-mini.border.border-trbl Custom Params Example
+     pre #{user}
+    div.content-box.pad-box-mini.border.border-trbl
+     h3.content-box.pad-box-mini.border.border-trbl Consumer Params Example
+     pre #{consumerParams}
