@@ -66,6 +66,15 @@
     "oauth_signature": "6JwhmrFBjB8E0RAveQPO9ThsN1w="
 }</pre>
     </div>
+  <div class="content-box pad-box-mini border border-trbl">
+    <h3 class="content-box pad-box-mini border border-trbl">Getting started</h3>
+      <pre>
+      $ git clone https://github.com/at-tools/canvas-lti-kit-starer
+      $ npm install
+      TODO: Update the consumer, secret, and certs in server/config.js for your development environment
+      $ npm run dev
+      </pre>
+  </div>
 </body>
 
 </html>
